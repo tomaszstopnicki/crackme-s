@@ -28,8 +28,10 @@ What caught my eye is a call to **checkCdRom**. It’s connected to the error we
 ![image](https://github.com/user-attachments/assets/2e91c676-016d-4fa3-bc1e-9e05b87ba389)
 
 
-This subroutine calls a GetDriveTypeA, a function to detect whether a specific disk is a removable, fixed, CD-ROM, RAM disk or network drive.
-Few lines later it compares the result with 5 which is DRIVE_CDROM. If the comparison is successful then it searches for a file Disk1.iso in C drive.
+This subroutine calls a **GetDriveTypeA**, a function to detect whether a specific disk is a removable, fixed, CD-ROM, RAM disk or network drive.
+
+Few lines later it compares the result with **5** which is **DRIVE_CDROM**. If the comparison is successful then it searches for a file Disk1.iso in C drive.
+
 If one of the statements is unsuccessful then it shows a messagebox seen previously telling us that CD-ROM not inserted.
 
 Now when we understood the logic behind it, let’s run it in OllyDbg to skip the checking part.
@@ -40,7 +42,9 @@ After we run the crackme in debugger let’s search for the error string “CD-R
 
  
 Before the message is displayed we have a **JE** (Jump Equal) statement at **0x401558** that checks for the result from checkCdRom we investigated earlier.
-All we have to do is to either change the instruction from  **JE** to **JMP** to skip the CD-ROM checking part or fill the JMP instruction at 0x401588 with NOP’s. The second way will still show the warning, but the crackme will continue.
+
+All we have to do is to either change the instruction from  **JE** to **JMP** to skip the CD-ROM checking part or fill the JMP instruction at **0x401588** with ** NOP’s**. The second way will still show the warning, but the crackme will continue.
+
 Now all we have to do is to run the crackme directly from the debugger with our changed instructions or patch the file and run it without debugger
 
 After we skipped the detection part we can enjoy a maze!
