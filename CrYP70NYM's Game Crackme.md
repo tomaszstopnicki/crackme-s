@@ -1,6 +1,9 @@
 CrYP70NYM's Game Crackme.
+
 Crackme file link: https://crackmes.one/crackme/66a877d290c4c2830c8213f0
+
 Zip password: crackmes.one
+
 
 Let’s try to run this file first.
 
