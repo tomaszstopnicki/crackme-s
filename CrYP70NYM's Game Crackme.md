@@ -43,7 +43,7 @@ After we run the crackme in debugger let’s search for the error string “CD-R
  
 Before the message is displayed we have a **JE** (Jump Equal) statement at **0x401558** that checks for the result from checkCdRom we investigated earlier.
 
-All we have to do is to either change the instruction from  **JE** to **JMP** to skip the CD-ROM checking part or fill the JMP instruction at **0x401588** with ** NOP’s**. The second way will still show the warning, but the crackme will continue.
+All we have to do is to either change the instruction from  **JE** to **JMP** to skip the CD-ROM checking part or fill the JMP instruction at **0x401588** with **NOP’s**. The second way will still show the warning, but the crackme will continue.
 
 Now all we have to do is to run the crackme directly from the debugger with our changed instructions or patch the file and run it without debugger
 
