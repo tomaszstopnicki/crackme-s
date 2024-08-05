@@ -1,8 +1,8 @@
-JayC’s Crackme.
+**JayC’s Crackme.
 
 Crackme file link: https://crackmes.one/crackme/66a64ff190c4c2830c8212da
 
-Zip password: crackmes.one
+Zip password: crackmes.one**
 
 We are given a file ‘crackme1.exe’. When we run it we get a console writeline with a message prompting for a key:
 ![image](https://github.com/user-attachments/assets/fa749f63-b266-42c2-8de2-1c070c34229a)
@@ -55,5 +55,6 @@ Now, let’s add a line of code that displays the generated key like on the imag
 Press Compile, then save the executable by clicking File->Save module->OK.
 
 Now when we run the patched executable the key is visible to us before the input.
+
  ![image](https://github.com/user-attachments/assets/c3715adc-834c-4f9d-82dc-efeacaa5e036)
 
