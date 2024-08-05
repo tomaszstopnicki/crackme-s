@@ -4,6 +4,7 @@ Crackme file link: https://crackmes.one/crackme/66a64ff190c4c2830c8212da
 
 Zip password: crackmes.one**
 
+
 We are given a file ‘crackme1.exe’. When we run it we get a console writeline with a message prompting for a key:
 ![image](https://github.com/user-attachments/assets/fa749f63-b266-42c2-8de2-1c070c34229a)
 
