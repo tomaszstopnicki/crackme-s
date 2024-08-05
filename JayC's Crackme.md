@@ -2,7 +2,7 @@
 
 Crackme file link: https://crackmes.one/crackme/66a64ff190c4c2830c8212da
 
-Zip password: crackmes.one**
+Zip password: crackmes.one
 
 
 We are given a file ‘crackme1.exe’. When we run it we get a console writeline with a message prompting for a key:
