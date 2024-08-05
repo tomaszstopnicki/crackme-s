@@ -35,7 +35,7 @@ But how to get the passcode if it’s randomly generated each time the crackme r
 
 Well, we have to run it in a .NET debugger, I will be using dnSpy version v6.1.8
 
-Navigate to a call to ****Retrieve_Key function and set a breakpoint (F5) at the beginning of the function.
+Navigate to a call to **Retrieve_Key** function and set a breakpoint (F5) at the beginning of the function.
  ![image](https://github.com/user-attachments/assets/d988db5d-6213-4c90-88fa-a5aab23510e5)
 
 
