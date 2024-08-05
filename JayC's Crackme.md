@@ -1,4 +1,4 @@
-**JayC’s Crackme.
+**JayC’s Crackme.**
 
 Crackme file link: https://crackmes.one/crackme/66a64ff190c4c2830c8212da
 
